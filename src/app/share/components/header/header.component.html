@@ -1,0 +1,27 @@
+<header
+  class="h-[68px] z-10 bg-gray-900 sticky top-0 flex justify-between items-center px-10 gap-5"
+>
+  <div class="flex items-cente gap-5">
+    <img
+      width="110"
+      src="../../../../assets/notnetflixlogo.png"
+      alt="notnetflixclone"
+    />
+    <ul class="flex items-center gap-5">
+      @for(nav of navList; track nav) {
+      <li
+        class="text-white cursor-pointer text-sm font-extralight hover:texy-gray-400 transition[1s] gap-5"
+      >
+        {{ nav }}
+      </li>
+      }
+    </ul>
+  </div>
+  <!-- Welcome User | Profile Image | SignOut -->
+
+  <div class="text-white gap-5 flex items-center">
+    <a class="hover:text-gray-400 transitions[1s]" href=""><span>Welcome </span> <strong>Angelica</strong></a>
+    <img class="w-10 rounded-full" [src]="userImg" alt="profile image"> &nbsp;
+    <a href="">SignOut</a>
+  </div>
+</header>
