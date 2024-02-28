@@ -12,7 +12,7 @@ const options = {
   headers: {
     accept: 'application/json',
     Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiOGFlNTYwNzI5MjkyMWFmYzZlMWFlMzZhZWUzYTU5NiIsInN1YiI6IjY1ZDY5MzBmYzVjMWVmMDE3ZDhiMzllYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-LIAx5RbruDfCc4kvHG50Hyd1nr8QDFHR__-Q685tV0',
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZjRhNjBhZGE0ZDU0NzgyOGMzYzNkY2U3NDc1YmE1YiIsInN1YiI6IjY1ZDY5MzBmYzVjMWVmMDE3ZDhiMzllYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.t2YE4hbzRcUyzI0pzJkL5io99IgLWczTnNn1av_ebiY',
   },
 };
 @Injectable({
